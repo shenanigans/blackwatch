@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blackwatch Military Academy</title>
+    <base href="/" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="roles.css" />
+</head>
+<body>
+    {{> header}}
+    <div id="content">
+        <h1>HERO ROLES</h1>
+        <p>
+            The Heroes of Overwatch and Talon possess a dizzying variety of weapons and abilities.
+            Nevertheless, they operate on the same battlefields and pursue the same goals. Every
+            shot you take, projectile you block, or wound you heal, must be coordinated on the
+            Objective. By using your Hero's unique skills to fulfill your Role in the Team, you will
+            ensure that your skill and hard work do not go to waste.
+        </p>
+        <div class="Hint_Winston">
+            <img src="img/hint_winston.png" />
+            <div>
+                Getting good with a Hero means learning them in more than just one Role. You have to
+                learn <b>every</b> Role!
+                <div></div>
+            </div>
+        </div>
+        <p>
+            The six Roles are designed to build a team that can react effectively to any situation.
+            That doesn't mean <i>every</i> match and <i>every</i> situation calls for all six Roles
+            to be filled. In fact, it becomes impossible as soon as the first kill is made! It's
+            crucial that Agents understand that a Role is an assignment for the ideal circumstance.
+            Planning for the best possible outcome gives that outcome the best possible chance of
+            occurring. As soon as the best case scenario has been ruled out, each Agent must adapt
+            on the fly, filling the Role which the team most needs moment to moment.
+        </p>
+            Experienced Agents may note that this arrangement superficially resembles the classic
+            <a href="strategy/comps#two_two_two">2-2-2 Team Composition</a>. Don't be fooled - many
+            Roles can be filled by a diverse cast of Heroes. By approaching the Hero Select Screen
+            with an open mind toward which Heroes can fulfill which Roles, a wide variety of
+            functioning <a href="strategy/comps">Team Compositions</a> can be designed.
+        </p>
+        <h3>RESEARCH AND FIELD EXPERIENCE</h3>
+        <p>
+            Be advised that the Roles indicated as appropriate for each Hero are suggestions. They are
+            based on the best information that the Academy has acquired and until you have become an
+            experienced Agent you are advised to follow them. However, as you gather new intel in the
+            field you are <i>encouraged</i> to develop your own theories, no matter how much they
+            may contradict Academy doctrine. This is your war, Agent. Fight it how you choose.
+        </p>
+        {{#>s2 id="role_summary" name="THE SIX TEAM ROLES"}}
+            <p>
+                Below are the detailed explanations of the Team Roles. Regardless of your personal Hero
+                or Role preference, you must learn and understand the principles of all six to be an
+                effective Agent.
+            </p>
+            <div id="role_hero">
+                <a href="strategy/roles#assaulter" class="RoleTile">
+                    <img class="Tile" src="img/roles/tile.png" />
+                    <img class="Wide" src="img/roles/assaulter.png" />
+                    <img class="Title" src="img/roles/titles/assaulter.png" />
+                </a>
+                <a href="strategy/roles#skirmisher" class="RoleTile">
+                    <img class="Tile" src="img/roles/tile.png" />
+                    <img class="Wide" src="img/roles/skirmisher.png" />
+                    <img class="Title" src="img/roles/titles/skirmisher.png" />
+                </a>
+                <a href="strategy/roles#point" class="RoleTile">
+                    <img class="Tile" src="img/roles/tile.png" />
+                    <img class="Wide" src="img/roles/point.png" />
+                    <img class="Title" src="img/roles/titles/point.png" />
+                </a>
+                <a href="strategy/roles#enforcer" class="RoleTile">
+                    <img class="Tile" src="img/roles/tile.png" />
+                    <img class="Wide" src="img/roles/enforcer.png" />
+                    <img class="Title" src="img/roles/titles/enforcer.png" />
+                </a>
+                <a href="strategy/roles#captain" class="RoleTile">
+                    <img class="Tile" src="img/roles/tile.png" />
+                    <img class="Wide" src="img/roles/captain.png" />
+                    <img class="Title" src="img/roles/titles/captain.png" />
+                </a>
+                <a href="strategy/roles#rescue" class="RoleTile">
+                    <img class="Tile" src="img/roles/tile.png" />
+                    <img class="Wide" src="img/roles/rescue.png" />
+                    <img class="Title" src="img/roles/titles/rescue.png" />
+                </a>
+            </div>
+            <table id="role_table">
+                <tr>
+                    <td>
+                        Pressures the front with the Point.
+                    </td>
+                    <td>
+                        Harasses or defends the flanks.
+                    </td>
+                    <td>
+                        Aggresses ground at the front.
+                    </td>
+                    <td>
+                        Lurks near the supports.
+                    </td>
+                    <td>
+                        The natural "center" of the team.
+                    </td>
+                    <td>
+                        Goes wherever they're needed.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Deals steady damage.
+                    </td>
+                    <td>
+                        Eliminates key targets.
+                    </td>
+                    <td>
+                        Mitigates incoming damage.
+                    </td>
+                    <td>
+                        Defends the supports.
+                    </td>
+                    <td>
+                        Enhances team sustain on the Objective.
+                    </td>
+                    <td>
+                        Nullifies enemy plays.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Uses Ult to initiate.
+                    </td>
+                    <td>
+                        Uses Ult to clean up a fight.
+                    </td>
+                    <td>
+                        Uses Ult to initiate.
+                    </td>
+                    <td>
+                        Uses Ult reactively.
+                    </td>
+                    <td>
+                        Uses Ult to initiate.
+                    </td>
+                    <td>
+                        Uses Ult reactively.
+                    </td>
+                </tr>
+            </table>
+        {{/s2}}
+        <div class="Section" id="assaulter">
+            <h2>
+                <a href="strategy/roles#assaulter">
+                    <div class="RoleDefIcon">
+                        <img src="img/roles/charms/assaulter.png" />
+                    </div>
+                    ASSAULTER
+                </a>
+                <div class="BadgeSet">
+                    <div class="BadgeRow">
+                        <a href="heroes/bastion" class="Badge"><img src="img/hero/bastion.png" /></a>
+                        <a href="heroes/junkrat" class="Badge"><img src="img/hero/junkrat.png" /></a>
+                        <a href="heroes/mccree" class="Badge"><img src="img/hero/mccree.png" /></a>
+                        <a href="heroes/pharah" class="Badge"><img src="img/hero/pharah.png" /></a>
+                    </div>
+                    <div class="BadgeRow">
+                        <a href="heroes/reaper" class="Badge"><img src="img/hero/reaper.png" /></a>
+                        <a href="heroes/roadhog" class="Badge"><img src="img/hero/roadhog.png" /></a>
+                        <a href="heroes/soldier" class="Badge"><img src="img/hero/soldier.png" /></a>
+                    </div>
+                    <div class="BadgeRow">
+                        <a href="heroes/torbjorn" class="Badge"><img src="img/hero/torbjorn.png" /></a>
+                        <a href="heroes/winston" class="Badge"><img src="img/hero/winston.png" /></a>
+                        <a href="heroes/zarya" class="Badge"><img src="img/hero/zarya.png" /></a>
+                    </div>
+                </div>
+            </h2>
+            <div class="SectionContent">
+                <div class="BadgeGhost" style="width:216px;height:147px"></div>
+                <p class="RoleSummary">Main DPS</p>
+                <p>
+                    Sometimes nothing but unrelenting sustained fire will get the job done. By
+                    providing continuous steady pressure, the Assaulter taxes the Enemy's defenses
+                    and punishes them whenever those defenses fail.
+                </p>
+                <p>
+                    The Assaulter's primary objective is to apply continuous pressure against the
+                    enemy Point, forcing out defensive abilities and preventing the Enemy from
+                    leaving cover. The Assaulter should leverage the defensive capabilities of their
+                    own <a href="strategy/roles#point">Point</a> to keep the enemy occupied and
+                    stressed as long as possible. The Assaulter's secondary objective is usually the
+                    enemy Assaulter. Once the enemy Team's ability to apply damage to the Objective
+                    has been crippled, the Assaulter is free to make kills of opportunity against
+                    the nearest Enemy targets to <a href="strategy/tactics#rout">"clean up"</a> the
+                    fight.
+                </p>
+                <p>
+                    In a <a href="strategy/comp#dive">Dive Comp</a>, the Assaulter usually
+                    targets the enemy Support Heroes first. They should then focus on the enemy
+                    Point and Assaulter as normal.
+                </p>
+                <p>
+                    As long as the enemy Team is applying damage to the Objective, the Assaulter's
+                    job is not done. When the enemy team's Assaulter is a long range class, they
+                    must be killed or forced out of position before the Objective can be considered
+                    fully secure. In some situations, the
+                    <a href="strategy/roles#skirmisher">Skirmisher</a> will be available to engage
+                    the enemy Assaulter. When this is the case, the Assaulter should position
+                    further forward to support them.
+                </p>
+                <p>
+                    A good Assaulter Hero is always capable of strong sustained DPS. Self-healing
+                    abilities and offensive abilities that disable individual enemies are very
+                    valuable in an Assaulter. Mobility is less valuable as the Assaulter usually
+                    positions close to their <a href="strategy/roles#captain">Captain</a>.
+                </p>
+            </div>
+        </div>
+        <div class="Section" id="skirmisher">
+            <h2>
+                <a href="strategy/roles#skirmisher">
+                    <div class="RoleDefIcon">
+                        <img src="img/roles/charms/skirmisher.png" />
+                    </div>
+                    SKIRMISHER
+                </a>
+                <div class="BadgeSet">
+                    <div class="BadgeRow">
+                        <a href="heroes/doomfist" class="Badge"><img src="img/hero/doomfist.png" /></a>
+                        <a href="heroes/dva" class="Badge"><img src="img/hero/dva.png" /></a>
+                        <a href="heroes/genji" class="Badge"><img src="img/hero/genji.png" /></a>
+                        <a href="heroes/hanzo" class="Badge"><img src="img/hero/hanzo.png" /></a>
+                        <a href="heroes/junkrat" class="Badge"><img src="img/hero/junkrat.png" /></a>
+                    </div>
+                    <div class="BadgeRow">
+                        <a href="heroes/mccree" class="Badge"><img src="img/hero/mccree.png" /></a>
+                        <a href="heroes/mei" class="Badge"><img src="img/hero/mei.png" /></a>
+                        <a href="heroes/reaper" class="Badge"><img src="img/hero/reaper.png" /></a>
+                        <a href="heroes/roadhog" class="Badge"><img src="img/hero/roadhog.png" /></a>
+                    </div>
+                    <div class="BadgeRow">
+                        <a href="heroes/soldier" class="Badge"><img src="img/hero/soldier.png" /></a>
+                        <a href="heroes/sombra" class="Badge"><img src="img/hero/sombra.png" /></a>
+                        <a href="heroes/symmetra" class="Badge"><img src="img/hero/symmetra.png" /></a>
+                        <a href="heroes/tracer" class="Badge"><img src="img/hero/tracer.png" /></a>
+                        <a href="heroes/widowmaker" class="Badge"><img src="img/hero/widowmaker.png" /></a>
+                    </div>
+                </div>
+            </h2>
+            <div class="SectionContent">
+                <div class="BadgeGhost" style="width:278px;height:147px"></div>
+                <p class="RoleSummary">Support DPS</p>
+                <p>
+                    Sometimes called the "Troubleshooter" of the Team, the Skirmisher Role is a
+                    flexible one. By carefully observing the battle and leveraging their mobility,
+                    the skirmisher distracts or eliminates key individuals to disrupt the Enemy and
+                    secure the safety of the Team.
+                </p>
+            </div>
+        </div>
+        <div class="Section" id="point">
+            <h2>
+                <a href="strategy/roles#point">
+                    <div class="RoleDefIcon">
+                        <img src="img/roles/charms/point.png" />
+                    </div>
+                    POINT
+                </a>
+                <div class="BadgeSet">
+                    <div class="BadgeRow">
+                        <a href="heroes/dva" class="Badge"><img src="img/hero/dva.png" /></a>
+                        <a href="heroes/mei" class="Badge"><img src="img/hero/mei.png" /></a>
+                        <a href="heroes/orisa" class="Badge"><img src="img/hero/orisa.png" /></a>
+                        <a href="heroes/reinhardt" class="Badge"><img src="img/hero/reinhardt.png" /></a>
+                    </div>
+                    <div class="BadgeRow">
+                        <a href="heroes/roadhog" class="Badge"><img src="img/hero/roadhog.png" /></a>
+                        <a href="heroes/winston" class="Badge"><img src="img/hero/winston.png" /></a>
+                        <a href="heroes/zarya" class="Badge"><img src="img/hero/zarya.png" /></a>
+                    </div>
+                </div>
+            </h2>
+            <div class="SectionContent">
+                <div class="BadgeGhost" style="width:214px;height:98px"></div>
+                <p class="RoleSummary">Main Defender</p>
+                <p>Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis. Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.</p>
+            </div>
+        </div>
+        <div class="Section" id="enforcer">
+            <h2>
+                <a href="strategy/roles#enforcer">
+                    <div class="RoleDefIcon">
+                        <img src="img/roles/charms/enforcer.png" />
+                    </div>
+                    ENFORCER
+                </a>
+                <div class="BadgeSet">
+                    <div class="BadgeRow">
+                        <a href="heroes/bastion" class="Badge"><img src="img/hero/bastion.png" /></a>
+                        <a href="heroes/doomfist" class="Badge"><img src="img/hero/doomfist.png" /></a>
+                        <a href="heroes/dva" class="Badge"><img src="img/hero/dva.png" /></a>
+                        <a href="heroes/junkrat" class="Badge"><img src="img/hero/junkrat.png" /></a>
+                        <a href="heroes/mccree" class="Badge"><img src="img/hero/mccree.png" /></a>
+                        <a href="heroes/mei" class="Badge"><img src="img/hero/mei.png" /></a>
+                    </div>
+                    <div class="BadgeRow">
+                        <a href="heroes/orisa" class="Badge"><img src="img/hero/orisa.png" /></a>
+                        <a href="heroes/pharah" class="Badge"><img src="img/hero/pharah.png" /></a>
+                        <a href="heroes/reaper" class="Badge"><img src="img/hero/reaper.png" /></a>
+                        <a href="heroes/reinhardt" class="Badge"><img src="img/hero/reinhardt.png" /></a>
+                        <a href="heroes/roadhog" class="Badge"><img src="img/hero/roadhog.png" /></a>
+                    </div>
+                    <div class="BadgeRow">
+                        <a href="heroes/symmetra" class="Badge"><img src="img/hero/symmetra.png" /></a>
+                        <a href="heroes/torbjorn" class="Badge"><img src="img/hero/torbjorn.png" /></a>
+                        <a href="heroes/widowmaker" class="Badge"><img src="img/hero/widowmaker.png" /></a>
+                        <a href="heroes/winston" class="Badge"><img src="img/hero/winston.png" /></a>
+                        <a href="heroes/zarya" class="Badge"><img src="img/hero/zarya.png" /></a>
+                    </div>
+                </div>
+            </h2>
+            <div class="SectionContent">
+                <div class="BadgeGhost" style="width:308px;height:147px"></div>
+                <p class="RoleSummary">Support Defender</p>
+                <p>Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis. Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.</p>
+            </div>
+        </div>
+        <div class="Section" id="captain">
+            <h2>
+                <a href="strategy/roles#captain">
+                    <div class="RoleDefIcon">
+                        <img src="img/roles/charms/captain.png" />
+                    </div>
+                    CAPTAIN
+                </a>
+                <div class="BadgeSet">
+                    <div class="BadgeRow">
+                        <a href="heroes/ana" class="Badge"><img src="img/hero/ana.png" /></a>
+                        <a href="heroes/lucio" class="Badge"><img src="img/hero/lucio.png" /></a>
+                        <a href="heroes/mercy" class="Badge"><img src="img/hero/mercy.png" /></a>
+                    </div>
+                    <div class="BadgeRow">
+                        <a href="heroes/symmetra" class="Badge"><img src="img/hero/symmetra.png" /></a>
+                        <a href="heroes/zen" class="Badge"><img src="img/hero/zenyatta.png" /></a>
+                    </div>
+                </div>
+            </h2>
+            <div class="SectionContent">
+                <div class="BadgeGhost" style="width:154px;height:98px"></div>
+                <p class="RoleSummary">Team Center</p>
+                <p>Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis. Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.</p>
+            </div>
+        </div>
+        <div class="Section" id="rescue">
+            <h2>
+                <a href="strategy/roles#rescue">
+                    <div class="RoleDefIcon">
+                        <img src="img/roles/charms/rescue.png" />
+                    </div>
+                    RESCUE
+                </a>
+                <div class="BadgeSet">
+                    <div class="BadgeRow">
+                        <a href="heroes/ana" class="Badge"><img src="img/hero/ana.png" /></a>
+                        <a href="heroes/lucio" class="Badge"><img src="img/hero/lucio.png" /></a>
+                        <a href="heroes/mercy" class="Badge"><img src="img/hero/mercy.png" /></a>
+                        <a href="heroes/zen" class="Badge"><img src="img/hero/zenyatta.png" /></a>
+                    </div>
+                </div>
+            </h2>
+            <div class="SectionContent">
+                <div class="BadgeGhost" style="width:216px;height:98px"></div>
+                <p class="RoleSummary">Main Healer</p>
+                <p>Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis. Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.</p>
+            </div>
+        </div>
+        <br style="clear:both;" />
+    </div>
+</body>
+</html>

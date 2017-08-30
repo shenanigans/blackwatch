@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blackwatch Military Academy</title>
+    <base href="/" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+    {{> header}}
+    <div id="content">
+        <h1>UNDER CONSTRUCTION</h1>
+        <p>
+            Right now this site is just a skeleton - a monument to writer's block, if you will. The
+            nav links in the upper right all work, except for the Map pages.  I don't have my
+            general layout figured out so I can't nail down the boilerplate and copypasta those out
+            just yet.
+        </p>
+        <p>
+            If you're just getting into this page, start with <a href="strategy/roles">The Six Roles
+            of Overwatch</a>, then look at how that idea shakes out in <a href="strategy/comps">
+            Various Team Compositions</a>.
+        </p>
+    </div>
+</body>
+</html>

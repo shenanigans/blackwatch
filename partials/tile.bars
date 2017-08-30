@@ -1,0 +1,7 @@
+<div class="RoleTile">
+    <div class="HeroOptions">
+        {{> @partial-block}}
+    </div>
+    <img class="Wide" src="img/roles/slots/{{id}}.png" />
+    <img class="Title" src="img/roles/titles/{{id}}.png" />
+</div>

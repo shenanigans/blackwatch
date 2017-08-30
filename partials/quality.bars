@@ -1,0 +1,3 @@
+<div class="AbilityType"><img src="img/ability/{{type}}.png" />
+    {{#if msg}}{{msg}}{{else}}{{lookup @root.INFO.abilities type}}{{mul}}{{/if}}
+</div>

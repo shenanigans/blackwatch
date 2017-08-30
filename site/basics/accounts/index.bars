@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blackwatch Military Academy</title>
+    <base href="/" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+    {{> header}}
+    <div id="content">
+        <h1>USER ACCOUNTS</h1>
+        {{#>s2 id="battletag" name="CREATING YOUR BATTLETAG"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="experience_points"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="loot_boxes"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="seasons" name="COMPETITIVE SEASONS"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="skill_rating"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+    </div>
+</body>
+</html>

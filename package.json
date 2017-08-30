@@ -1,0 +1,14 @@
+{
+  "name": "blackwatch_ma_site",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": "shenanigans/blackwatch",
+  "dependencies": {
+    "async": "^2.5.0",
+    "fs-extra": "^4.0.1",
+    "handlebars": "^4.0.10",
+    "mkdirp": "^0.5.1",
+    "node-static": "^0.7.9",
+    "surveil": "^0.1.3"
+  }
+}

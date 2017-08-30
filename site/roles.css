@@ -1,0 +1,132 @@
+
+#role_hero, .CompHero {
+    text-align: center;
+    margin: 13px -15px 5px;
+}
+
+#role_table {
+    margin: 0 -17px 5px;
+    border-spacing: 0;
+}
+
+#role_table td {
+    width: 160px;
+    padding: 5px 7px;
+    margin: 0;
+    text-align: center;
+    border-right: 1px solid #aaa;
+    border-top: 1px solid #e0e0e0;
+}
+
+#role_table td:first-child {
+    border-left: 1px solid #aaa;
+}
+
+#role_table tr:last-child td {
+    border-bottom: 1px solid #aaa;
+}
+
+.HeroClass {
+    margin: 0 0 -75px 0;
+}
+
+.RoleTile {
+    position: relative;
+    width: 120px;
+    margin: 0 15px;
+    text-align: center;
+    display: inline-block;
+    z-index: 1;
+}
+
+.RoleTile .Tile {
+    width: 100%;
+    position: relative;
+    z-index: -2;
+}
+
+.RoleTile .Wide {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.CompHero .RoleTile .Wide {
+    top: auto;
+    bottom: 24px;
+    z-index: -1;
+    opacity: 1;
+}
+
+.RoleTile .Title {
+    margin-top: 4px;
+}
+
+.CompHero .RoleTile .Title {
+    margin-top: 50px;
+}
+
+.BadgeGhost {
+    float: right;
+    margin: -50px 5px 7px 10px;
+    padding-bottom: 28px;
+}
+
+.RoleSummary {
+    margin: 1px 0 -16px -1px;
+    font-size: 28px;
+    color: #f00;
+}
+
+.RoleDefIcon {
+    width: 80px;
+    margin: 0 0 0 -10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.RoleDefIcon img {
+    position: relative;
+    top: 4px;
+}
+
+.BadgeSet {
+    position: absolute;
+    top: 18px;
+    right: 0;
+    text-align: right;
+    background-color: #fff;
+}
+
+.Badge {
+    width: 52px;
+    display: inline-block;
+    height: 54px;
+    position: relative;
+}
+
+.Badge img {
+    width: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.BadgeRow {
+
+}
+
+.BadgeRow:nth-child(even) {
+    padding-right: 31px;
+}
+
+p {
+    margin: 1.5em 0;
+}
+
+img.RoleCharm {
+    vertical-align: bottom;
+}

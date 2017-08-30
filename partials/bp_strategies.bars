@@ -1,0 +1,6 @@
+<div class="Section" id="strategies">
+    <h2><a href="{{path}}#strategies">TECHNIQUES AND STRATEGIES</a></h2>
+    <div class="SectionContent">
+        {{> @partial-block}}
+    </div>
+</div>

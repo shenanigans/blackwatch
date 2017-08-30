@@ -1,0 +1,14 @@
+<div class="AbilityStats">
+    <img src="img/hero/{{hero}}/{{#if img}}{{img}}{{else}}{{id}}{{/if}}.png" />
+    <table>
+        {{#each (lookup (lookup (lookup @root.heroes hero) id) "qualities")}}
+            {{>quality}}
+        {{/each}}
+        {{#each (lookup (lookup (lookup @root.heroes hero) id) "facts")}}
+            <tr>
+                <td>{{name}}</td>
+                <td>{{value}}</td>
+            </tr>
+        {{/each}}
+    </table>
+</div>

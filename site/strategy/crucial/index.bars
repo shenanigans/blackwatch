@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blackwatch Military Academy</title>
+    <base href="/" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+    {{> header}}
+    <div id="content">
+        <h1>CRUCIAL ABILITIES</h1>
+        <p>
+            There are several Hero abilities in Overwatch that possess a unique capacity to swing
+            the outcome of a match. These abilities must be thoroughly understood regardless of what
+            Heroes you choose to focus on.
+        </p>
+        {{#>s2 id="defense_matrix"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="rocket_punch"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="scatter_arrow"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="chain_hook"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="resurrection"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+            <div class="Hint_Mercy">
+                <img src="img/hint_mercy.png" />
+                <div>
+                    If the enemy Team can't focus me down in time, I can virtually double the
+                    strength of our push!
+                    <div></div>
+                </div>
+            </div>
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="symmetra" name="TELEPORTER AND SHIELD GENERATOR"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="infra_sight" name="INFRA-SIGHT"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+    </div>
+</body>
+</html>

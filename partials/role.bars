@@ -1,0 +1,7 @@
+<div class="Section" id="{{id}}">
+    <h3><a href="{{path}}#{{id}}">
+        <div class="RoleStratIcon"><img src="img/roles/charms/{{id}}.png" /></div>
+        {{caps id}}
+    </a></h3>
+    {{> @partial-block}}
+</div>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blackwatch Military Academy</title>
+    <base href="/" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+    {{> header}}
+    <div id="content">
+        <h1>TECHNICAL DETAILS</h1>
+        Specific information about the game engine and how the base game mechanics function.
+        {{#>s2 id="hero" name="THE HERO MODEL"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="ticks" name="SERVER TICKS"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="collisions"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="line_of_sight"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="splash" name="SPLASH AND AREA EFFECTS"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="projectiles"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+    </div>
+</body>
+</html>

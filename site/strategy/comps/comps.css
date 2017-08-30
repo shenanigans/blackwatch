@@ -1,0 +1,27 @@
+
+.CompHero {
+    text-align: center;
+    margin: 13px -15px 5px;
+}
+
+.CompHero .RoleTile .Wide {
+    top: auto;
+    bottom: 24px;
+    z-index: -1;
+    opacity: 1;
+}
+
+.CompHero .RoleTile .Title {
+    margin-top: 50px;
+}
+
+.HeroOptions {
+    padding: 60px 0 0 0;
+    position: relative;
+    z-index: -1;
+}
+
+.HeroOptions img {
+    width: 100%;
+    margin-top: -66px;
+}

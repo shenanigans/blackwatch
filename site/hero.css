@@ -1,0 +1,114 @@
+
+body {
+    padding-top: 93px;
+}
+
+h1 {
+    border: none;
+    margin-left: -60px;
+}
+
+h3 {
+    border-top: 1px solid #aaa;
+    border-bottom: none;
+}
+
+#faction {
+    vertical-align: bottom;
+    height: 59px;
+    margin-bottom: -1px;
+}
+
+.BigHero {
+    margin: 1px 0 10px -50px;
+}
+
+.BigHero + p {
+    margin-top: 4px;
+}
+
+.AbilitySection {
+    padding-top: 90px;
+    margin-top: 0px;
+    clear: both;
+}
+
+.AbilitySection:first-child, .Section .Section:first-child {
+    margin-top: -91px;
+}
+
+.AbilitySectionContent {
+    padding-top: 80px;
+    margin-top: -80px;
+}
+
+.AbilityStats {
+    min-width: 300px;
+    float: right;
+    margin: -44px -20px 10px 10px;
+    padding: 18px 10px 9px;
+    border: 1px solid #aaa;
+    border-top: none;
+    border-radius: 0 0 0 10px;
+    text-align: center;
+}
+
+.AbilityStats > img {
+    margin: 0 0 10px 0;
+}
+
+.AbilityStats table {
+    clear: both;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.AbilityStats tr {
+
+}
+
+.AbilityStats td {
+    padding: 3px 5px;
+    background-color: #cbd1e6;
+    text-align: left;
+}
+
+.AbilityStats td:first-child {
+    text-align: right;
+    color: #fff;
+    background-color: #1f2435;
+    padding-right: 7px;
+}
+
+#abilities .SH2 {
+    margin-bottom: -165px;
+    border: none;
+}
+
+.AbilityType {
+    display: block;
+    text-align: left;
+    color: #000;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: impact;
+}
+
+.AbilityType:visited {
+    color: #000;
+}
+
+.AbilityType img {
+    display: inline-block;
+    margin: 0 3px 0 0;
+    width: 43px;
+    height: 32px;
+    vertical-align: bottom;
+}
+
+.RoleStratIcon {
+    display: inline-block;
+    width: 79px;
+    margin: 0 0 0 -36px;
+    text-align: center;
+}

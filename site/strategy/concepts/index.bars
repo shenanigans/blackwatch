@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blackwatch Military Academy</title>
+    <base href="/" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+    {{> header}}
+    <div id="content">
+        <h1>OVERWATCH CONCEPTS</h1>
+        <p>
+            Whether you're diving into your first mission or brushing up on your fundamentals, it's
+            crucial to have a firm grounding in the basics of Overwatch.
+        </p>
+        {{#>s2 id="barriers"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="shields"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="armor"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="ultimate_ability"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="overtime"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="burst_dps"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="sustained_dps"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="team_fight"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="hero_classes"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+            {{#>s3 id="attack"}}
+                <p>
+                    Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                    vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                    accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                    Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+                </p>
+            {{/s3}}
+            {{#>s3 id="defense"}}
+                <p>
+                    Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                    vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                    accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                    Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+                </p>
+            {{/s3}}
+            {{#>s3 id="tank"}}
+                <p>
+                    Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                    vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                    accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                    Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+                </p>
+            {{/s3}}
+            {{#>s3 id="support"}}
+                <p>
+                    Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                    vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                    accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                    Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+                </p>
+            {{/s3}}
+        {{/s2}}
+    </div>
+</body>
+</html>

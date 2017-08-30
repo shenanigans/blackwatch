@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blackwatch Military Academy</title>
+    <base href="/" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="strategy/apli/apli.css" />
+</head>
+<body>
+    {{> header}}
+    <div id="content">
+        <h1>THE TACTICAL PYRAMID</h1>
+        <p>
+            Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+            vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+            accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+            Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+        </p>
+        <div id="apli">
+            <img src="img/apli.png" />
+            <a class="Row" href="strategy/apli#action"></a>
+            <a class="Row" href="strategy/apli#position"></a>
+            <a class="Row" href="strategy/apli#logistics"></a>
+            <a class="Row" href="strategy/apli#information"></a>
+        </div>
+        <p>
+            Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+            vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+            accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+            Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+        </p>
+        {{#>s2 id="information"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="logistics"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="position"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+        {{#>s2 id="action"}}
+            <p>
+                Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+            </p>
+        {{/s2}}
+    </div>
+</body>
+</html>

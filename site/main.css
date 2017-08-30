@@ -1,0 +1,347 @@
+
+@font-face {
+    font-family: 'bignoodletoo';
+    src: url(https://us.battle.net/forums/static/fonts/bignoodletoo/bignoodletoo.woff) format('woff'),
+         url(https://us.battle.net/forums/static/fonts/bignoodletoo/bignoodletoo.ttf) format('truetype'),
+         url(https://us.battle.net/forums/static/fonts/bignoodletoo/bignoodletoo.woff2) format('woff2'),
+         url(https://us.battle.net/forums/static/fonts/bignoodletoo/bignoodletoo.svg#bignoodletoo/bignoodletoo) format('svg')
+         ;
+}
+
+html {
+    padding: 0;
+    background-color: #86898e;
+    height: 100%;
+    font-size: 18px;
+    font-family: tahoma;
+}
+
+body {
+    min-height: 100%;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 48px #505050;
+    padding: 110px 0 60px;
+}
+
+h1 {
+    border-bottom: 1px solid #6c738c;
+    min-height: 79px;
+    font-family: bignoodletoo, impact;
+    font-size: 110px;
+    line-height: 79px;
+}
+
+h2 {
+    border-bottom: 1px solid #aaa;
+    min-height: 44px;
+    font-family: bignoodletoo, impact;
+    font-size: 61px;
+    line-height: 44px;
+}
+
+h3 {
+    border-bottom: 1px solid #aaa;
+    min-height: 33px;
+    font-family: bignoodletoo, impact;
+    font-size: 45px;
+    line-height: 33px;
+}
+
+h1, h2, h3 {
+    position: relative;
+    display: block;
+    padding: 5px 20px 5px 20px;
+    margin: 0 -20px;
+    clear: both;
+    text-decoration: none;
+    color: #000;
+    font-weight: 300;
+}
+
+h1 a, h2 a, h3 a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1 + p, h2 + p, h3 + p {
+    margin-top: 10px;
+}
+
+h1 img, h2 img {
+    vertical-align: bottom;
+}
+
+h3 img {
+    vertical-align: middle;
+}
+
+#header {
+    padding: 4px 0 0;
+    border-bottom: 3px solid #253675;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #1f2435;
+    color: #fff;
+    z-index: 9001;
+    font-family: bignoodletoo, impact;
+}
+
+#header > div {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#logo {
+    height: 70px;
+    margin: 0 10px;
+}
+
+#hack_animation {
+    position: absolute;
+    height: 70px;
+    top: 0;
+    left: -45px;
+    opacity: 0.85;
+}
+
+#nav {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#nav > div {
+    display: inline-block;
+    position: relative;
+}
+
+.NavTitle {
+    cursor: pointer;
+    padding: 6px 15px 7px 10px;
+    margin: 0 0px -2px 10px;
+    transition: background-color 0.7s ease-out;
+    font-size: 25px;
+    line-height: 20px;
+}
+
+#nav > div:hover .NavTitle {
+    background-color: #46599e;
+    transition: background-color 0.25s ease-out;
+}
+
+.NavContainer {
+    display: none;
+    position: absolute;
+    text-align: right;
+    right: 0px;
+    top: -48px;
+    padding-top: 81px;
+    height: 100vh;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+#nav > div:hover .NavContainer {
+    display: inline-block;
+}
+
+.NavEntries {
+    background-color: #46599e;
+    box-sizing: border-box;
+    padding: 2px 8px 5px;
+    max-height: 100%;
+    min-width: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.NavEntries a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    background-color: #262e48;
+    padding: 5px 7px 4px;
+    margin: 2px 0;
+    font-family: arial;
+    transition: background-color 0.25s ease-out;
+    white-space: pre;
+}
+
+.NavEntries a:hover {
+    background-color: #f00;
+}
+
+.NavSection:first-child .NavSectionTitle {
+    margin-top: 2px;
+}
+
+.NavSectionTitle {
+    color: #fff;
+    font-size: 115%;
+    margin: 12px 0 -5px;
+    font-family: bignoodletoo, impact;
+}
+
+.NavSection a:first-child {
+    background-color: transparent;
+}
+
+#content {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.Section {
+    padding-top: 90px;
+    margin-top: -30px;
+    clear: both;
+}
+
+.SectionContent {
+    padding-top: 80px;
+    margin-top: -80px;
+}
+
+.Hint_Winston {
+    float: right;
+    clear:both;
+    display: inline-block;
+    width: 370px;
+    margin: 3px 0 3px 10px;
+    font-family: verdana;
+    padding: 7px 0 0 3px;
+    background-color: #ddd0fe;
+    font-size: 19px;
+}
+
+.Hint_Winston img {
+    float: right;
+    margin: -7px 0 0px -8px;
+}
+
+.Hint_Winston > div {
+    padding: 5px 0 0 9px;
+    margin: 0;
+    background-color: #eaf6ff;
+    border-radius: 7px 0 0 0;
+}
+
+.Hint_Winston div div {
+    clear: both;
+}
+
+.Hint_Mercy {
+    float: left;
+    clear:both;
+    display: inline-block;
+    width: 384px;
+    margin: 7px 19px 3px 0;
+    font-family: verdana;
+    padding: 7px 3px 0 0;
+    background-color: #e9e7ff;
+    font-size: 20px;
+}
+
+.Hint_Mercy img {
+    float: left;
+    margin: -7px -1px 0 0;
+}
+
+.Hint_Mercy > div {
+    padding: 8px 10px 8px 10px;
+    margin: 0;
+    background-color: #ffffcf;
+    border-radius: 0 7px 0 0;
+}
+
+.Hint_Mercy div div {
+    clear: both;
+    margin: 8px 0 -8px;
+}
+
+.Hint_Junkrat {
+    float: right;
+    clear:both;
+    display: inline-block;
+    border-top: 10px solid #cc875d;
+    border-left: 2px solid #cc875d;
+    width: 390px;
+    margin: 3px 0 3px 10px;
+    font-family: verdana;
+    padding: 0 7px 0 10px;
+    background-color: #fff38f;
+    font-size: 19px;
+}
+
+.Hint_Junkrat img {
+    float: right;
+    margin: -10px -7px 0px -13px;
+}
+
+.Hint_Junkrat > div {
+    margin: 6px 0 0;
+}
+
+.Hint_Junkrat div div {
+    clear: both;
+    /* margin: 12px 0 -12px; */
+}
+
+.Hint_Junkrat_2R {
+    float: right;
+    clear:both;
+    display: inline-block;
+    width: 351px;
+    margin: 3px 0 3px 10px;
+    font-family: verdana;
+    background-color: #fefdc2;
+    font-size: 20px;
+    border-left: 7px solid #37463f;
+    border-right: 7px solid #6ac1dc;
+    border-bottom: 3px solid #061919;
+}
+
+.Hint_Junkrat_2R img {
+    margin: 0 0 0 -7px;
+}
+
+.Hint_Junkrat_2R > div {
+    margin: -6px 10px 10px;
+}
+
+.Hint_Junkrat_2R div div {
+    height: 0;
+    clear: both;
+}
+
+.Hint_Junkrat_2L {
+    float: left;
+    clear:both;
+    display: inline-block;
+    width: 350px;
+    margin: 3px 10px 3px 0;
+    font-family: verdana;
+    background-color: #fefdc2;
+    font-size: 20px;
+    border-left: 7px solid #37463f;
+    border-right: 7px solid #6ac1dc;
+    border-bottom: 3px solid #000;
+}
+
+.Hint_Junkrat_2L img {
+    margin: 0 0 0 -7px;
+}
+
+.Hint_Junkrat_2L > div {
+    margin: -6px 10px 10px;
+}
+
+.Hint_Junkrat_2L div div {
+    height: 0;
+    clear: both;
+}

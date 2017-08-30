@@ -1,0 +1,4 @@
+<div class="Section" id="working_with">
+    <h3>WORKING WITH {{caps title}}</h3>
+    {{> @partial-block}}
+</div>
