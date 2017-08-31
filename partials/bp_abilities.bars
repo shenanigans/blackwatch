@@ -1,6 +1,0 @@
-<div class="Section" id="abilities">
-    <h2><a href="{{path}}#abilities">WEAPONS AND ABILITIES</a></h2>
-    <div class="SectionContent">
-        {{> @partial-block}}
-    </div>
-</div>

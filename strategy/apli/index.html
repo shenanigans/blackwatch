@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blackwatch Military Academy</title>
+    <base href="/" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="strategy/apli/apli.css" />
+</head>
+<body>
+    <div id="header">
+        <script>
+    function clearWheel (elem, event) {
+        if (event.deltaY < 0)
+            return Boolean (elem.scrollTop);
+        if (elem.scrollHeight - elem.offsetHeight === elem.scrollTop)
+            return false;
+        return true;
+    }
+        </script>
+        <div>
+            <a href="/"><img id="logo" src="img/logo.png" /></a>
+            <img id="hack_animation" src="img/hack.gif" />
+            <div id="nav">
+                <div id="basics">
+                    <div class="NavTitle">BASICS</div>
+                    <div class="NavContainer">
+                        <div class="NavEntries" onwheel="return clearWheel (this, event);">
+                            <a href="basics/accounts">User Accounts</a>
+                            <a href="basics/modes">Game Modes</a>
+                            <a href="basics/tech">The Game Engine</a>
+                            <a href="basics/learning">Overwatch Training</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="strategy">
+                    <div class="NavTitle">STRATEGY</div>
+                    <div class="NavContainer">
+                        <div class="NavEntries" onwheel="return clearWheel (this, event);">
+                            <a href="strategy/apli">The Tactical Pyramid</a>
+                            <a href="strategy/concepts">Game Concepts</a>
+                            <a href="strategy/crucial">Crucial Abilities</a>
+                            <a href="strategy/roles">Hero Roles</a>
+                            <a href="strategy/comps">Team Composition</a>
+                            <a href="strategy/tactics">Tactics</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="strategy">
+                    <div class="NavTitle">HEROES</div>
+                    <div class="NavContainer">
+                        <div class="NavEntries" onwheel="return clearWheel (this, event);">
+                            <div class="NavSection">
+                                <a href="maps/hybrid"><div class="NavSectionTitle">DPS</div></a>
+                                <a href="heroes/bastion">Bastion</a>
+                                <a href="heroes/doomfist">Doomfist</a>
+                                <a href="heroes/genji">Genji</a>
+                                <a href="heroes/hanzo">Hanzo</a>
+                                <a href="heroes/junkrat">Junkrat</a>
+                                <a href="heroes/mccree">McCree</a>
+                                <a href="heroes/mei">Mei</a>
+                                <a href="heroes/pharah">Pharah</a>
+                                <a href="heroes/reaper">Reaper</a>
+                                <a href="heroes/soldier">Soldier: 76</a>
+                                <a href="heroes/sombra">Sombra</a>
+                                <a href="heroes/torbjorn">Torbjorn</a>
+                                <a href="heroes/tracer">Tracer</a>
+                                <a href="heroes/widowmaker">Widomaker</a>
+                            </div>
+                            <div class="NavSection">
+                                <a href="maps/hybrid"><div class="NavSectionTitle">TANK</div></a>
+                                <a href="heroes/dva">D.Va</a>
+                                <a href="heroes/orisa">Orisa</a>
+                                <a href="heroes/reinhardt">Reinhardt</a>
+                                <a href="heroes/roadhog">Roadhog</a>
+                                <a href="heroes/winston">Winston</a>
+                                <a href="heroes/zarya">Zarya</a>
+                            </div>
+                            <div class="NavSection">
+                                <a href="maps/hybrid"><div class="NavSectionTitle">SUPPORT</div></a>
+                                <a href="heroes/ana">Ana</a>
+                                <a href="heroes/lucio">Lucio</a>
+                                <a href="heroes/mercy">Mercy</a>
+                                <a href="heroes/symmetra">Symmetra</a>
+                                <a href="heroes/zenyatta">Zenyatta</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="maps">
+                    <div class="NavTitle">MAPS</div>
+                    <div class="NavContainer">
+                        <div class="NavEntries" onwheel="return clearWheel (this, event);">
+                            <div class="NavSection">
+                                <a href="maps/escort"><div class="NavSectionTitle">PAYLOAD</div></a>
+                                <a href="maps/route66">Route 66</a>
+                                <a href="maps/dorado">Dorado</a>
+                                <a href="maps/gibralter">Watchpoint: Gibralter</a>
+                            </div>
+                            <div class="NavSection">
+                                <a href="maps/hybrid"><div class="NavSectionTitle">HYBRID ASSAULT/ESCORT</div></a>
+                                <a href="maps/hollywood">Hollywood</a>
+                                <a href="maps/eichenwald">Eichenwald</a>
+                                <a href="maps/kingsrow">King's Row</a>
+                                <a href="maps/numbani">Numbani</a>
+                            </div>
+                            <div class="NavSection">
+                                <a href="maps/assault"><div class="NavSectionTitle">ASSAULT</div></a>
+                                <a href="maps/hanamura">Hanamura</a>
+                                <a href="maps/horizon">Horizon Lunar Colony</a>
+                                <a href="maps/anubis">Temple of Anubis</a>
+                                <a href="maps/volskaya">Volskaya Industries</a>
+                            </div>
+                            <div class="NavSection">
+                                <a href="maps/koth"><div class="NavSectionTitle">KING OF THE HILL</div></a>
+                                <a href="maps/ilios">Ilios</a>
+                                <a href="maps/lijiang">Lijiang Tower</a>
+                                <a href="maps/nepal">Nepal</a>
+                                <a href="maps/oasis">Oasis</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <h1>THE TACTICAL PYRAMID</h1>
+        <p>
+            Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+            vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+            accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+            Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+        </p>
+        <div id="apli">
+            <img src="img/apli.png" />
+            <a class="Row" href="strategy/apli#action"></a>
+            <a class="Row" href="strategy/apli#position"></a>
+            <a class="Row" href="strategy/apli#logistics"></a>
+            <a class="Row" href="strategy/apli#information"></a>
+        </div>
+        <p>
+            Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+            vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+            accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+            Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+        </p>
+<div class="Section" id="information">
+    <h2><a href="strategy\apli#information">INFORMATION</a></h2>
+                <p>
+                    Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                    vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                    accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                    Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+                </p>
+</div>
+<div class="Section" id="logistics">
+    <h2><a href="strategy\apli#logistics">LOGISTICS</a></h2>
+                <p>
+                    Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                    vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                    accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                    Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+                </p>
+</div>
+<div class="Section" id="position">
+    <h2><a href="strategy\apli#position">POSITION</a></h2>
+                <p>
+                    Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                    vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                    accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                    Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+                </p>
+</div>
+<div class="Section" id="action">
+    <h2><a href="strategy\apli#action">ACTION</a></h2>
+                <p>
+                    Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                    vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                    accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                    Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+                </p>
+</div>
+    </div>
+</body>
+</html>

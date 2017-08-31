@@ -1,4 +1,0 @@
-<div class="Section" id="{{id}}">
-    <h2><a href="{{path}}#{{id}}">{{#if name}}{{name}}{{else}}{{caps id}}{{/if}}</a></h2>
-    {{> @partial-block}}
-</div>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blackwatch Military Academy</title>
+    <base href="/" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+    <div id="header">
+        <script>
+    function clearWheel (elem, event) {
+        if (event.deltaY < 0)
+            return Boolean (elem.scrollTop);
+        if (elem.scrollHeight - elem.offsetHeight === elem.scrollTop)
+            return false;
+        return true;
+    }
+        </script>
+        <div>
+            <a href="/"><img id="logo" src="img/logo.png" /></a>
+            <img id="hack_animation" src="img/hack.gif" />
+            <div id="nav">
+                <div id="basics">
+                    <div class="NavTitle">BASICS</div>
+                    <div class="NavContainer">
+                        <div class="NavEntries" onwheel="return clearWheel (this, event);">
+                            <a href="basics/accounts">User Accounts</a>
+                            <a href="basics/modes">Game Modes</a>
+                            <a href="basics/tech">The Game Engine</a>
+                            <a href="basics/learning">Overwatch Training</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="strategy">
+                    <div class="NavTitle">STRATEGY</div>
+                    <div class="NavContainer">
+                        <div class="NavEntries" onwheel="return clearWheel (this, event);">
+                            <a href="strategy/apli">The Tactical Pyramid</a>
+                            <a href="strategy/concepts">Game Concepts</a>
+                            <a href="strategy/crucial">Crucial Abilities</a>
+                            <a href="strategy/roles">Hero Roles</a>
+                            <a href="strategy/comps">Team Composition</a>
+                            <a href="strategy/tactics">Tactics</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="strategy">
+                    <div class="NavTitle">HEROES</div>
+                    <div class="NavContainer">
+                        <div class="NavEntries" onwheel="return clearWheel (this, event);">
+                            <div class="NavSection">
+                                <a href="maps/hybrid"><div class="NavSectionTitle">DPS</div></a>
+                                <a href="heroes/bastion">Bastion</a>
+                                <a href="heroes/doomfist">Doomfist</a>
+                                <a href="heroes/genji">Genji</a>
+                                <a href="heroes/hanzo">Hanzo</a>
+                                <a href="heroes/junkrat">Junkrat</a>
+                                <a href="heroes/mccree">McCree</a>
+                                <a href="heroes/mei">Mei</a>
+                                <a href="heroes/pharah">Pharah</a>
+                                <a href="heroes/reaper">Reaper</a>
+                                <a href="heroes/soldier">Soldier: 76</a>
+                                <a href="heroes/sombra">Sombra</a>
+                                <a href="heroes/torbjorn">Torbjorn</a>
+                                <a href="heroes/tracer">Tracer</a>
+                                <a href="heroes/widowmaker">Widomaker</a>
+                            </div>
+                            <div class="NavSection">
+                                <a href="maps/hybrid"><div class="NavSectionTitle">TANK</div></a>
+                                <a href="heroes/dva">D.Va</a>
+                                <a href="heroes/orisa">Orisa</a>
+                                <a href="heroes/reinhardt">Reinhardt</a>
+                                <a href="heroes/roadhog">Roadhog</a>
+                                <a href="heroes/winston">Winston</a>
+                                <a href="heroes/zarya">Zarya</a>
+                            </div>
+                            <div class="NavSection">
+                                <a href="maps/hybrid"><div class="NavSectionTitle">SUPPORT</div></a>
+                                <a href="heroes/ana">Ana</a>
+                                <a href="heroes/lucio">Lucio</a>
+                                <a href="heroes/mercy">Mercy</a>
+                                <a href="heroes/symmetra">Symmetra</a>
+                                <a href="heroes/zenyatta">Zenyatta</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="maps">
+                    <div class="NavTitle">MAPS</div>
+                    <div class="NavContainer">
+                        <div class="NavEntries" onwheel="return clearWheel (this, event);">
+                            <div class="NavSection">
+                                <a href="maps/escort"><div class="NavSectionTitle">PAYLOAD</div></a>
+                                <a href="maps/route66">Route 66</a>
+                                <a href="maps/dorado">Dorado</a>
+                                <a href="maps/gibralter">Watchpoint: Gibralter</a>
+                            </div>
+                            <div class="NavSection">
+                                <a href="maps/hybrid"><div class="NavSectionTitle">HYBRID ASSAULT/ESCORT</div></a>
+                                <a href="maps/hollywood">Hollywood</a>
+                                <a href="maps/eichenwald">Eichenwald</a>
+                                <a href="maps/kingsrow">King's Row</a>
+                                <a href="maps/numbani">Numbani</a>
+                            </div>
+                            <div class="NavSection">
+                                <a href="maps/assault"><div class="NavSectionTitle">ASSAULT</div></a>
+                                <a href="maps/hanamura">Hanamura</a>
+                                <a href="maps/horizon">Horizon Lunar Colony</a>
+                                <a href="maps/anubis">Temple of Anubis</a>
+                                <a href="maps/volskaya">Volskaya Industries</a>
+                            </div>
+                            <div class="NavSection">
+                                <a href="maps/koth"><div class="NavSectionTitle">KING OF THE HILL</div></a>
+                                <a href="maps/ilios">Ilios</a>
+                                <a href="maps/lijiang">Lijiang Tower</a>
+                                <a href="maps/nepal">Nepal</a>
+                                <a href="maps/oasis">Oasis</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <h1>OVERWATCH CONCEPTS</h1>
+        <p>
+            Whether you're diving into your first mission or brushing up on your fundamentals, it's
+            crucial to have a firm grounding in the basics of Overwatch.
+        </p>
+<div class="Section" id="barriers">
+    <h2><a href="strategy\concepts#barriers">BARRIERS</a></h2>
+                <p>
+                    Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                    vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                    accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                    Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+                </p>
+</div>
+<div class="Section" id="shields">
+    <h2><a href="strategy\concepts#shields">SHIELDS</a></h2>
+                <p>
+                    Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                    vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                    accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                    Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+                </p>
+</div>
+<div class="Section" id="armor">
+    <h2><a href="strategy\concepts#armor">ARMOR</a></h2>
+                <p>
+                    Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                    vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                    accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                    Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+                </p>
+</div>
+<div class="Section" id="ultimate_ability">
+    <h2><a href="strategy\concepts#ultimate_ability">ULTIMATE ABILITY</a></h2>
+                <p>
+                    Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                    vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                    accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                    Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+                </p>
+</div>
+<div class="Section" id="overtime">
+    <h2><a href="strategy\concepts#overtime">OVERTIME</a></h2>
+                <p>
+                    Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                    vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                    accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                    Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+                </p>
+</div>
+<div class="Section" id="burst_dps">
+    <h2><a href="strategy\concepts#burst_dps">BURST DPS</a></h2>
+                <p>
+                    Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                    vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                    accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                    Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+                </p>
+</div>
+<div class="Section" id="sustained_dps">
+    <h2><a href="strategy\concepts#sustained_dps">SUSTAINED DPS</a></h2>
+                <p>
+                    Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                    vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                    accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                    Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+                </p>
+</div>
+<div class="Section" id="team_fight">
+    <h2><a href="strategy\concepts#team_fight">TEAM FIGHT</a></h2>
+                <p>
+                    Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                    vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                    accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                    Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+                </p>
+</div>
+<div class="Section" id="hero_classes">
+    <h2><a href="strategy\concepts#hero_classes">HERO CLASSES</a></h2>
+                <p>
+                    Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                    vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                    accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                    Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+                </p>
+    <div class="Section" id="attack">
+        <h3><a href="strategy\concepts#attack">ATTACK</a></h3>
+                        <p>
+                            Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                            vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                            accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                            Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+                        </p>
+    </div>
+    <div class="Section" id="defense">
+        <h3><a href="strategy\concepts#defense">DEFENSE</a></h3>
+                        <p>
+                            Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                            vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                            accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                            Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+                        </p>
+    </div>
+    <div class="Section" id="tank">
+        <h3><a href="strategy\concepts#tank">TANK</a></h3>
+                        <p>
+                            Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                            vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                            accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                            Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+                        </p>
+    </div>
+    <div class="Section" id="support">
+        <h3><a href="strategy\concepts#support">SUPPORT</a></h3>
+                        <p>
+                            Cras a nibh vitae nisl sollicitudin mattis id vel massa. Maecenas a dolor a sem
+                            vehicula rhoncus at nec felis. Praesent fringilla augue sit amet tristique
+                            accumsan. Mauris urna arcu, ultricies vitae justo eu, vehicula consequat felis.
+                            Duis eget purus quis elit tempor lacinia. Sed consectetur eget ligula in ultrices.
+                        </p>
+    </div>
+</div>
+    </div>
+</body>
+</html>

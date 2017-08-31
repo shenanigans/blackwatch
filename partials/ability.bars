@@ -1,9 +1,0 @@
-<div class="AbilitySection" id="{{id}}">
-    <h3><a href="{{path}}#{{id}}">
-        {{#if name}}{{name}}{{else}}{{caps id}}{{/if}}
-    </a></h3>
-    <div class="AbilitySectionContent">
-        {{>abilityStats}}
-        {{> @partial-block}}
-    </div>
-</div>

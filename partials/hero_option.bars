@@ -1,1 +1,0 @@
-<a href="heroes/{{id}}"><img src="img/hero/{{id}}.png" /></a>
