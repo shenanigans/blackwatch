@@ -4,7 +4,6 @@
     <title>Blackwatch Military Academy</title>
     <base href="/" />
     <link rel="stylesheet" type="text/css" href="main.css" />
-    <link rel="stylesheet" type="text/css" href="hero.css" />
     <link rel="stylesheet" type="text/css" href="roles.css" />
     <link rel="stylesheet" type="text/css" href="strategy/comps/comps.css" />
 </head>
