@@ -4,7 +4,7 @@ Blackwatch Military Academy
 
 A preview of the site can be found [here](http://blackwatch.hopto.org/).
 
-Plase Donate!
+Please Donate!
 -------------
 There are no plans to host advertisements or monetize this site in any other way. The plan is to pay
 for hosting costs with small individual donations from the community. If you're excited by this
