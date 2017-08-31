@@ -45,6 +45,13 @@ run these two commands:
 ./compile.js
 ```
 
+A live version of the site reflecting your latest changes will now be available at `127.0.0.1:8080`.
+Note that the build script isn't polished software. If it seems to be having a problem, restart it 
+by striking control-c and re-entering `./compile.js`.
+
+Note that the server process hosting the site is bound to this console window. If you close this
+window, `dev_server.js` will also close and your local version of the site will go down.
+
 
 LICENSE
 -------
