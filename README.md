@@ -2,7 +2,7 @@ Blackwatch Military Academy
 ===========================
 *A lovingly hand-crafted website about [Overwatch](https://playoverwatch.com)*
 
-A preview of the site can be found [here](https://shenanigans.github.io/blackwatch/dist).
+A preview of the site can be found [here](http://blackwatch.hopto.org/).
 
 Plase Donate!
 -------------
